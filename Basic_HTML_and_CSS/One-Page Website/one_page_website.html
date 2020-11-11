@@ -1,78 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>The Snowmobile Shop</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<title>The Snowmobile Shop</title>
 	</head>
 	<body>
-		
-	<!-- Website Title -->
-	<div>
-		<style>
-		h3 {text-align: center}
-		</style>
-		<h3>The Snowmobile Shop</h3>
-		<p>This webpage is where snomobiles will be able to look at<br>
-		snowmobiles that people have made to be the most lightweight they can be.<br>
-		I myself am trying to create on of these sleds, and will show how it is being built here.</p>
-	</div>
-	<!-- End Website Title -->
-	
-		<!-- NAV -->
-	<div>
-		<div>
-			<ul>
-				<a href="#home" id="link"><li>HOME</li></a>
-				<a href="#sleds"><li>Sleds</li></a>
-				<a href="#contact"><li>Contact Information</li></a>
-			</ul>
+
+		<!--Nav-->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>RESERVATIONS</li></a>
+				</ul>
+			</div>
 		</div>
-	</div>
-	<!--END NAV -->
-	
-	<!-- Image and Video Page -->
-	<div>
-		<div>
-			<img src="./Thumb/thumbnail_1.jpg" alt="Snowmobiler standing on top of a mountain.">
-				<div>
-					<h3>Click to Enlarge</h3>
-						<p>We have several snowmobiles for sell, look at one today!</p>
+		<!--End Nav-->
+
+		<!--Home-->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Snowmobile Shop</span>
 				</div>
+			</div>
 		</div>
-	</div>
+		<!--End Home-->
+
+		<!--Gallery-->
+		<section id="gallery">
+			<div class="container">
+				<h1>GALLERY</h1>
+				<div class="flex-container">
+					<!--PHOTO-CONTAINER 1-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_1.jpg" alt="">
+							<div class ="photo-overlay">
+								<p>We have several snowmobiles for sale.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO CONTAINER 1-->
+
+					<!--PHOTO-CONTAINER 2-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/Thumb/thumbnail_2.jpg" alt="">
+							<div class ="photo-overlay">
+								<p>We have several snowmobiles for sale.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO CONTAINER 2-->
 	
-	<div>
 		<div>
-			<img src="./Thumb/thumbnail_2.jpg" alt="Snowmobiler riding through the trees.">
-				<div>
-					<h3>Click to Enlarge</h3>
-						<p>We have several snowmobiles for sell, look at one today!</p>
-				</div>
+			<div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/shivLB8972c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 		</div>
-	</div>
-	
-	<div>
-		<div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/shivLB8972c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-	</div>
 	
 	<!-- End of Image&Video -->
 	
 
 	<!-- CONTACT FORM -->
-	<section>
-		<div id="contact">
-			<div>
+	<section id="contact">
+		<div class="container">
+			<div class="reservation">
 				<h1>Contact Information</h1>
 				<div>
 					<p>Provide your contact information.</p>
-					<div>
+					<div class="form-rsvp">
 						<form action="" method="post">
-							<input class="contact" type="text" value="First Name">
-							<input class="contact" type="text" value="Last Name">
-							<input class="contact" type="text" value="Phone Number">
-							<input class="contact" type="text" value="Email Address">
+							<input class="contact" type="text" value="" placeholder="First Name">
+							<input class="contact" type="text" value="" placeholder="Last Name">
+							<input class="contact" type="text" value="" placeholder="Email Address">
+							<input class="contact" type="text" value="" placeholder="Phone Number">
 							<div>
 							<input class="submit" value="Submit">
 							</div>

@@ -1,0 +1,140 @@
+html {
+    font-family: sans-serif;
+    font-size: 60;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+nav,
+footer {
+    display: block;
+}
+
+.clearfix:after,
+.container:after,
+.navbar::after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.wrap {
+    height: 100%;
+    width:100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: " ";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#home {
+    background: url(../Thumb/thumbnail_2.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 500px;
+    color: #fff;
+}
+
+.head-main {
+    font-variant: small-caps;
+    color: #fff;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5cm;
+    text-align: left;
+    font-family: impact, sans-serif;
+    line-height: 2;
+    font-weight: 600;
+    border: 5px double #fff;
+    padding: 10px;
+}
+
+.reservation {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100,65,0,.3);
+    box-shadow: -1px -1px 1px 0;
+}
+
+.reservation form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8d8e0f;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rbga(227,222,222);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
+    font-family: 'Raleway', sans-serif;
+}
+
+.reservation input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #911414;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgba(227,222,222);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3) ;
+    font-family: 'Raleway', sans-serif;
+}
+
+.head-main {
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
+    font-variant: small-caps;
+    color: #fff;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5cm;
+    text-align: left;
+    line-height: 2;
+    font-weight: 700;
+    border: 5px double #fff;
+    padding: 10px;
+} 
+
+#contact {
+    background-color: #fff;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+}
