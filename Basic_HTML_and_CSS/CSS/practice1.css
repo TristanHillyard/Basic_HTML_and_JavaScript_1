@@ -1,0 +1,7 @@
+.img {
+	filter: contrast(200%);
+}
+
+.photo {
+	border: 4px dashed blue;
+}
