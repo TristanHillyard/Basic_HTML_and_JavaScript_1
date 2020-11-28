@@ -153,7 +153,7 @@ footer {
     float: left;
     width: 25%;
 }
-/*Modal content */
+/*Modal background */
 .modal {
     display: none;
     position: fixed;
@@ -163,14 +163,25 @@ footer {
     top: 0;
     width: 100%;
     height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
     max-width: 1200px;
 }
 /*The close button */
 .close {
     color: white;
     position: absolute;
-    top: 10px;
-    right: 25px;
+    top: 60px;
+    right: 15px;
     font-size: 35px;
     font-weight: bold;
 }
@@ -185,6 +196,10 @@ footer {
 /* Hide the slides by default */
 .mySlides {
     display: none;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .prev,
@@ -219,7 +234,18 @@ footer {
     top: 0;
 }
 
-img.image-container {
+img{
+    margin-bottom: -4px;
+}
+
+.caption-container{
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.image-container {
     opacity: 0.6;
 }
 
