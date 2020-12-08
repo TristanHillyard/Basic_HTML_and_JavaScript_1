@@ -3,6 +3,15 @@ html {
     font-size: 60;
 }
 
+.container{
+    margin: auto;
+}
+
+.menu{
+    margin: 0% auto;
+    width: 100%;
+}
+
 body {
     font-size: 14px;
     margin: 0;
